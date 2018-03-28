@@ -1,0 +1,15 @@
+<div class ="container">  
+    <h1>Amigos </h1>
+<ul>  
+  <li *ngFor="let amigo of amigos">
+     {{amigo.nome}} </li>
+  
+</ul>
+
+</div>
+<div class="container">
+
+  
+  <input [(ngModel)]="amigo.nome" placeholder = "Digite o nome do Amigo"/>
+  <button (click)="addAmigo()">Adicionar</button>
+</div>
