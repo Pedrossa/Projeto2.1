@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { AmigosComponent } from './amigos/amigos.component';
 import { ComprasComponent } from './compras/compras.component';
+import { InicioComponent } from './inicio/inicio.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AmigosComponent,
-    ComprasComponent
+    ComprasComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
