@@ -5,12 +5,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { AmigosComponent } from './amigos/amigos.component';
+import { ComprasComponent } from './compras/compras.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AmigosComponent
+    AmigosComponent,
+    ComprasComponent
   ],
   imports: [
     BrowserModule,
